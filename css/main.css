@@ -95,6 +95,14 @@
 
 }
 
+.text7{
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 80px;
+
+}
+
+
 #portafolio{
 	background-color: #000000;
 	padding-bottom: 100px;
@@ -107,15 +115,17 @@
 #contacto{
 	background-color: #000000;
 	padding-top: 20px;
-	padding-bottom: 500px;
+	padding-bottom: 300px;
 
 }
 
 .fa{
 	color: #ffffff;
 	padding-left: 40px;
-	padding-top: 80px;
+	padding-top: 30px;
 }
 
-
+.boton-cv{
+	padding-top: 50px;
+}
 
