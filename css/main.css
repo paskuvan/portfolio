@@ -20,7 +20,7 @@
 .text {
   color: #f2f2f2;
   font-size: 80px;
-  padding: 510px 12px;
+  padding: 365px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -30,7 +30,7 @@
 .text1 {
   color: #f2f2f2;
   font-size: 50px;
-  padding: 430px 12px;
+  padding: 284px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
@@ -82,8 +82,8 @@
 .text5{
 	color: #ffffff;
 	font-size: 34px;
-	margin-bottom: 90px;
-	padding: 10px;
+	margin-bottom: 30px;
+	padding: 65px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: underline;
 
