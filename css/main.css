@@ -4,7 +4,7 @@
 
 }
 
-.logo{
+.logo-mp{
 	width: 50px;
 	height: 50px;
 }
@@ -91,6 +91,7 @@
 
 #portafolio{
 	background-color: #000000;
+	padding-bottom: 100px;
 
 	
 	
@@ -98,9 +99,17 @@
 
 
 #contacto{
-	background-color: #00000;
+	background-color: #000000;
+	padding-top: 20px;
+	padding-bottom: 500px;
+
 }
 
+.fa{
+	color: #ffffff;
+	padding-left: 40px;
+	padding-top: 80px;
+}
 
 
 
