@@ -80,8 +80,14 @@
 	text-decoration: underline;
 }
 
-.portafolio{
+#portafolio{
 	background-color: #000000;
-	padding: 100px;
+	
+	
+}
+
+
+#contacto{
+	background-color: #00000;
 }
 
