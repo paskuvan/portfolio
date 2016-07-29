@@ -70,7 +70,7 @@
   		<div class="carousel-inner" role="listbox">
     		<div class="item active">
       		<img src="img/nyc2.jpg"  id="newyorkcity" alt="Chania">
-      		<div class="text">MAJO P.</div>
+      		<div class="text animated">MAJO P.</div>
       		<div class="text1">UX/UI Designer & Frontend Developer</div>
 			</div>
 
@@ -603,6 +603,16 @@
 		
 		
 	});	
+
+	$('a[href=#inicio]').click(function (event)
+	{
+	event.stopPropagation();
+	var Position = jQuery('[id="inicio"]').offset().top;
+	jQuery('html, body').animate({ scrollTop: Position }, 1100);
+	return false;
+
+	
+	});
 
 
 
