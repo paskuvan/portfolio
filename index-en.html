@@ -34,33 +34,33 @@
 			<div class="collapse navbar-collapse" id="example-navbar-info">
 				<ul class="nav navbar-nav navbar-right">
 				<li class="active">
-		        <a href="#inicio" >
-		            Inicio
+		        <a href="#home" >
+		            Home
 		        </a>
 		        </li>
 		                            
 		        <li>
-		        <a href="#sobre-mi">
-		            Sobre mí
+		        <a href="#about">
+		            About
 		        </a>
 		       	</li>
 		                            
 		        <li>
-		       	<a href="#portafolio">
-		            Portafolio
+		       	<a href="#portfolio">
+		            Portfolio
 		        </a>
 		        </li>
 		                            
 		        <li>
-		        <a href="#contacto">
-		            Contacto
+		        <a href="#contact">
+		            Contact
 		        </a>
 		        </li>
 
 		        <li>
-		        <a href="index-en.html" target="_blank">
+		        <a href="index.html" target="_blank">
 		            <i class="material-icons">language</i>
-		            ENG
+		            ESP
 		        </a>
 		        </li>
 				</ul>
@@ -68,9 +68,9 @@
 		</div>
 	</nav>
 
-	<!--Inicio en español -->
+	<!--home in english -->
 		
-		<section id="inicio">
+		<section id="home">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 	    		<div class="item active">
@@ -87,21 +87,21 @@
 	
 
 
-	<!--Sobre mi en español -->
+	<!--about in english -->
 
-	<section id="sobre-mi" class="sobre-mi">
+	<section id="about" class="about">
 		
 		<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="col-md-6">
-				<center><h4 class="text2">Sobre mí</h4></center>
+				<center><h4 class="text2">About</h4></center>
 				<center><img src="img/avatar.jpg" alt="Circle Image" class="img-circle img-responsive">	</center>
-				<h4 class="text3">Soy Maria José, egresada de Laboratoria, diseñadora gráfica y desarrolladora frontend, soy creativa, ordenada y responsable. Quiero cumplir los nuevos desafíos como coder y conocer las tecnologías más avanzadas para fortalecer mis habilidades. </h4>
+				<h4 class="text3">I am Maria José, graduate from Laboratoria, graphic designer and frontend developer, I am creative, arranged and responsible. I want to keep new challenges as coder and meet more advanced technologies for strengthen my skills. . </h4>
 			</div>
 		
 			<div class="col-md-6">
-				<center><h3 class="text4">Habilidades</h3></center>
+				<center><h3 class="text4">Skills</h3></center>
 			<div class="title">
 	                        <h6 class="text6">HTML</h6>
 	                    </div>
@@ -183,11 +183,11 @@
 	</section>
 
 
-	<!--Portafolio en español -->
+	<!--Portfolio in eng -->
 	
-	<section id="portafolio">
+	<section id="portfolio">
 		<div class="container">
-		<center><h4 class="text5">Portafolio</h4></center>
+		<center><h4 class="text5">Portfolio</h4></center>
 
 		<ul id="filters" class="clearfix">
 			<li><span class="filter active" data-filter=".app, .card, .icon, .logo, .web">All</span></li>
@@ -519,13 +519,13 @@
 		
 	</section>
 
-	<!--Contacto en español -->
+	<!--Contact in english -->
 
-	<section id="contacto">
+	<section id="contact">
 		<div class="container">
 			<div class="col-md-12 centered">
 				<div class="row">
-					<center><h4 class="text5">Contacto</h4></center>
+					<center><h4 class="text5">Contact</h4></center>
 					<center>
 
 					<a href="http://fb.com/paskuvan" target="_blank"><i class="fa fa-facebook-official fa-4x"></i></a>
@@ -546,14 +546,14 @@
 				<div class="row">
 					<div class="boton-cv">
 					<center>
-					<a href="#" target="_blank"><button class="btn btn-info">Descarga CV</button></a>
+					<a href="#" target="_blank"><button class="btn btn-info">Download CV</button></a>
 
 					</center>
 					</div>
 				</div>
 
 			</div>	
-			<center><h4 class="text7">Diseñada por Majo P. en Santiago de Chile para Laboratoria Chile</h4></center>
+			<center><h4 class="text7">Designed by Majo P. in Santiago of Chile for Laboratoria Chile</h4></center>
 		</div>
 		
 	</section>
@@ -609,10 +609,10 @@
 		
 	});	
 
-	$('a[href=#inicio]').click(function (event)
+	$('a[href=#home]').click(function (event)
 	{
 	event.stopPropagation();
-	var Position = jQuery('[id="inicio"]').offset().top;
+	var Position = jQuery('[id="home"]').offset().top;
 	jQuery('html, body').animate({ scrollTop: Position }, 1100);
 	return false;
 
